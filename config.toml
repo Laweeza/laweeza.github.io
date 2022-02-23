@@ -24,7 +24,7 @@ pygmentsStyle = "monokai"
 
   description = "Software Developer from the Bay Area"
 
-  accentColor = "#1CAC78"
+  accentColor = "#2EC4B6"
 
   metaKeywords = ["blog", "portfolio", "hugo", "louisa", "software"]
 

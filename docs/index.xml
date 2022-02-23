@@ -1,1 +1,38 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Louisa Shing</title><link>https://laweeza.github.io/</link><description>Recent content on Louisa Shing</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Wed, 23 Feb 2022 00:33:37 -0800</lastBuildDate><atom:link href="https://laweeza.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>System Design Capstone</title><link>https://laweeza.github.io/posts/first_post/</link><pubDate>Wed, 23 Feb 2022 00:33:37 -0800</pubDate><guid>https://laweeza.github.io/posts/first_post/</guid><description>Test! This is my first post.</description></item><item><title>Home</title><link>https://laweeza.github.io/home/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://laweeza.github.io/home/</guid><description/></item><item><title>Projects</title><link>https://laweeza.github.io/projects/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://laweeza.github.io/projects/</guid><description>Hello my projects are</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Louisa Shing</title>
+    <link>https://laweeza.github.io/</link>
+    <description>Recent content on Louisa Shing</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 23 Feb 2022 00:33:37 -0800</lastBuildDate><atom:link href="https://laweeza.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>System Design Capstone</title>
+      <link>https://laweeza.github.io/posts/first_post/</link>
+      <pubDate>Wed, 23 Feb 2022 00:33:37 -0800</pubDate>
+      
+      <guid>https://laweeza.github.io/posts/first_post/</guid>
+      <description>Test! This is my first post.</description>
+    </item>
+    
+    <item>
+      <title>Home</title>
+      <link>https://laweeza.github.io/home/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://laweeza.github.io/home/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Projects</title>
+      <link>https://laweeza.github.io/projects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://laweeza.github.io/projects/</guid>
+      <description>Hello my projects are </description>
+    </item>
+    
+  </channel>
+</rss>
