@@ -20,13 +20,13 @@ pygmentsStyle = "monokai"
 
   avatarUrl = "/images/profile.png"
 
-  avatarSize = "size-l"
+  avatarSize = "size-m"
 
   description = "Software Developer from the Bay Area"
 
   accentColor = "#2EC4B6"
 
-  metaKeywords = ["blog", "portfolio", "hugo", "louisa", "software"]
+  metaKeywords = ["louisa", "software", "portfolio", "blog", "hugo"]
 
 [menu]
   [[menu.main]]
@@ -61,24 +61,11 @@ pygmentsStyle = "monokai"
     url = "/posts/"
     weight = 4
 
-    [[menu.main]]
-    identifier = "tags"
-    name = "Tags"
-    url = "/tags/"
-    weight = 5
 
   [[menu.main]]
     identifier = "resume"
     name = "Resume"
     url = "https://drive.google.com/file/d/1Eixv4sG79VCBj57-_1ENEx9DO6u4tYx0/view?usp=sharing"
-    weight = 6
-
-
-  [[menu.main]]
-    identifier = "github"
-    url = "https://github.com/Laweeza"
-    weight = 7
-
+    weight = 5
 
     # We use feather-icons: https://feathericons.com/
-    pre = "<span data-feather='github'></span>"
