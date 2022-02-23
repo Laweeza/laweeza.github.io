@@ -1,6 +1,8 @@
 ---
-title: "First_post"
+title: "System Design Capstone"
 date: 2022-02-23T00:33:37-08:00
-draft: true
+type: post
 ---
+
+This is my first post
 
