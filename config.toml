@@ -1,43 +1,76 @@
 baseURL = "https://laweeza.github.io/"
 defaultContentLanguage = "en"
 languageCode = "en"
-
 title = "Louisa Shing"
-
 theme = "gokarna"
 
 # Automatically generate robots.txt
 enableRobotsTXT = true
 
+pygmentsStyle = "monokai"
+
+[params]
+  socialIcons = [
+    {name = "gmail", url = "mailto:louieshing@gmail.com"},
+    {name = "linkedin", url = "https://www.linkedin.com/in/louisa-shing/"},
+    {name = "github", url = "https://github.com/Laweeza"},
+  ]
+
+  avatarUrl = "/images/profile.png"
+
+  avatarSize = "size-l"
+
+  description = "Software Developer from the Bay Area"
+
+  accentColor = "#1CAC78"
+
+  metaKeywords = ["blog", "portfolio", "hugo", "louisa", "software"]
+
 [menu]
   [[menu.main]]
-    # Unique identifer for a menu item
-    identifier = "posts"
+  identifier = "Home"
+  name= "Home"
+  url = "/"
+  weight = 1
 
-    url = "/posts/"
-
-    # You can add extra information before the name (HTML format is supported), such as icons
-    pre = ""
-
-    # You can add extra information after the name (HTML format is supported), such as icons
-    post = ""
-
-    # Display name
-    name = "Posts"
-
-    # Weights are used to determine the ordering
-    weight = 1
 
   [[menu.main]]
+    # Unique identifer for a menu item
+    identifier = "projects"
+    url = "/projects/"
+    # You can add extra information before the name (HTML format is supported), such as icons
+    pre = ""
+    # You can add extra information after the name (HTML format is supported), such as icons
+    post = ""
+    # Display name
+    name = "Projects"
+    # Weights are used to determine the ordering
+    weight = 2
+
+  [[menu.main]]
+    identifier = "posts"
+    name = "Posts"
+    url = "/posts/"
+    weight = 3
+
+    [[menu.main]]
     identifier = "tags"
     name = "Tags"
     url = "/tags/"
-    weight = 2
+    weight = 4
+
+  [[menu.main]]
+    identifier = "resume"
+    name = "Resume"
+    url = "https://drive.google.com/file/d/1Eixv4sG79VCBj57-_1ENEx9DO6u4tYx0/view?usp=sharing"
+    weight = 5
+
 
   [[menu.main]]
     identifier = "github"
     url = "https://github.com/Laweeza"
-    weight = 3
+    weight = 6
+
 
     # We use feather-icons: https://feathericons.com/
     pre = "<span data-feather='github'></span>"
