@@ -49,29 +49,35 @@ pygmentsStyle = "monokai"
     # Weights are used to determine the ordering
     weight = 2
 
+    [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 3
+
   [[menu.main]]
     identifier = "posts"
     name = "Posts"
     url = "/posts/"
-    weight = 3
+    weight = 4
 
     [[menu.main]]
     identifier = "tags"
     name = "Tags"
     url = "/tags/"
-    weight = 4
+    weight = 5
 
   [[menu.main]]
     identifier = "resume"
     name = "Resume"
     url = "https://drive.google.com/file/d/1Eixv4sG79VCBj57-_1ENEx9DO6u4tYx0/view?usp=sharing"
-    weight = 5
+    weight = 6
 
 
   [[menu.main]]
     identifier = "github"
     url = "https://github.com/Laweeza"
-    weight = 6
+    weight = 7
 
 
     # We use feather-icons: https://feathericons.com/
