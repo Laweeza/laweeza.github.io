@@ -61,11 +61,16 @@ pygmentsStyle = "monokai"
     url = "/posts/"
     weight = 4
 
+[[menu.main]]
+    identifier = "tags"
+    name = "Tags"
+    url = "/tags/"
+    weight = 5
 
   [[menu.main]]
     identifier = "resume"
     name = "Resume"
     url = "https://drive.google.com/file/d/1Eixv4sG79VCBj57-_1ENEx9DO6u4tYx0/view?usp=sharing"
-    weight = 5
+    weight = 6
 
     # We use feather-icons: https://feathericons.com/
