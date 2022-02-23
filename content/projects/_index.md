@@ -17,7 +17,7 @@ Lead and designed user-driven application features for a mobile errand-tracking 
 
 ## Project Greenfield
 
-```NGINX | Redis | AWS |  PostgresQL``` |  [Github](https://github.com/SDC-Sedeco/QA-Service)
+```NGINX | Redis |  PostgresQL | AWS``` |  [Github](https://github.com/SDC-Sedeco/QA-Service)
 
 Refactored a monolith design into microservices to scale for production level traffic.
 
@@ -26,7 +26,7 @@ Refactored a monolith design into microservices to scale for production level tr
 
 
 ## Atelier
-```React | Styled Components``` | [Github](https://github.com/rpp30-fec-r34ct/FEC)
+```React | Styled Components | Heroku``` | [Github](https://github.com/rpp30-fec-r34ct/FEC)
 
 Collaborated with a small team of engineers to spearhead a new design for an e-commerce platform.
 
