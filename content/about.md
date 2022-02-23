@@ -1,6 +1,5 @@
 ---
 title: "About"
-image: "/images/gothlou.png"
 type: page
 ---
 

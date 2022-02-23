@@ -35,6 +35,12 @@ pygmentsStyle = "monokai"
   url = "/"
   weight = 1
 
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 2
+
 
   [[menu.main]]
     # Unique identifer for a menu item
@@ -47,12 +53,6 @@ pygmentsStyle = "monokai"
     # Display name
     name = "Projects"
     # Weights are used to determine the ordering
-    weight = 2
-
-    [[menu.main]]
-    identifier = "about"
-    name = "About"
-    url = "/about/"
     weight = 3
 
   [[menu.main]]
