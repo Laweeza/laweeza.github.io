@@ -5,7 +5,7 @@
 <title>System Design Capstone</title>
 <meta name=description content="The project I learned from the most during HR.">
 <meta name=keywords content="blog,portfolio,hugo,louisa,software,system design">
-<meta property="og:url" content="https://laweeza.github.io/posts/first_post/">
+<meta property="og:url" content="https://laweeza.github.io/posts/second_post/">
 <meta property="og:type" content="website">
 <meta property="og:title" content="System Design Capstone">
 <meta property="og:description" content="The project I learned from the most during HR.">
@@ -13,10 +13,10 @@
 <meta name=twitter:card content="summary_large_image">
 <meta name=twitter:title content="System Design Capstone">
 <meta name=twitter:description content="The project I learned from the most during HR.">
-<meta property="twitter:domain" content="https://laweeza.github.io/posts/first_post/">
-<meta property="twitter:url" content="https://laweeza.github.io/posts/first_post/">
+<meta property="twitter:domain" content="https://laweeza.github.io/posts/second_post/">
+<meta property="twitter:url" content="https://laweeza.github.io/posts/second_post/">
 <meta name=twitter:image content="/images/profile.png">
-<link rel=canonical href=https://laweeza.github.io/posts/first_post/>
+<link rel=canonical href=https://laweeza.github.io/posts/second_post/>
 <link rel=stylesheet type=text/css href=/css/normalize.min.css media=print onload="this.media='all'">
 <link rel=stylesheet type=text/css href=/css/main.css>
 <link disabled id=dark-theme rel=stylesheet href=/css/dark.css>
@@ -113,27 +113,11 @@ February 23, 2022
 </div>
 <div class=post-content>
 <p>
-<h2 id=part-1>Part 1</h2>
-<p>SDC (System Design Capstone) was one of the most rewarding, yet challenging, applications I have had to work on.</p>
-<p>Working with a team of 2 other engineers, our goal was to transform and breakdown a monolithic architecture into 3 different microservices. Our client had an e-commerce website with a legacy API, and needed us to revamp the backend to scale for production level web traffic. I was solely responsible for the user questions and answers widget, and was given millions of CSV files to load into the new database I had to design.</p>
-<p>I knew I had to collect my thoughts and started off with debating between the pros and cons of different types of databases. The final two databases I ended up choosing between was MongoDB (Mongoose) and PostgresQL. The &lsquo;correct&rsquo; choice would be based on the type of need.</p>
-<h3 id=mongodbmongoose>MongoDB/Mongoose</h3>
-<ul>
-<li>Scales horizontally (scale-out)</li>
-<li>Works well with rapidly-changing, multi-structured data</li>
-<li>Better for agile in the beginning</li>
-<li>JSON/JS based</li>
-<li>Document-Oriented (fast reads)</li>
-</ul>
-<h3 id=postgresql>PostgresQL</h3>
-<ul>
-<li>Scales vertically</li>
-<li>Relational data</li>
-<li>Data Integrity (ACID)</li>
-<li>Robust access-control system</li>
-<li>Fault-tolerant environments</li>
-</ul>
-<p>Unfortunately the decision was not as clear-cut as I had hoped. I had the hardest time deliberating between the two.</p>
+<h3 id=part-2>Part 2</h3>
+<p>While designing the schemas for my database, I found clear relations between the users, questions, and answers. I had a hard time creating schemas with Mongoose, even when I tried to embed the documents. Mapping out the data into relational tables seemed more intuitive to me.</p>
+<p>MongoDB/Mongoose initially seemed really appealing since I felt that it would allow me to quickly play with the schemas. It was more flexible than a relational database. Relational databases like mySQL and PostgresQL seemed a bit rigid, and I was also worried about scaling limitations.</p>
+<p>I was also unfamiliar with PostgresQL, so I had to weigh whether or not learning new database syntax would be reasonable due to time constraints. However, I used mySQL before, and after a cursory read through the <a href=https://www.postgresql.org/docs/current/>documentation</a>, saw that there was some overlap between the two types of relational databases.</p>
+<p>&mdash; Still in Progress &mdash;</p>
 </p>
 </div>
 </div>
