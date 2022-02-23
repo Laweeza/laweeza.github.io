@@ -4,6 +4,8 @@ languageCode = "en"
 title = "Louisa Shing"
 theme = "gokarna"
 
+publishDir = "docs"
+
 # Automatically generate robots.txt
 enableRobotsTXT = true
 
