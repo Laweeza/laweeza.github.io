@@ -5,15 +5,29 @@ tags: ["projects"]
 type: page
 ---
 
-### Quick Bagel - React Native Geolocation | Expo |  MongoDB | [Github](https://github.com/rpp30-boc-heartbleed/whimsical)
-[![Quick Bagel](/images/BOC.png)](https://github.com/rpp30-boc-heartbleed/whimsical)
+## Quick Bagel
+```React Native Geolocation | Expo |  MongoDB``` | [Github](https://github.com/rpp30-boc-heartbleed/whimsical)
+
+Lead and designed user-driven application features for a mobile errand-tracking application.
+
+
+[![Quick Bagel](/images/BOC.png#floatleft)](https://github.com/rpp30-boc-heartbleed/whimsical)
 
 
 
-### Project Greenfield - NGINX | Redis | AWS |  PostgresQL | [Github](https://github.com/SDC-Sedeco/QA-Service)
+## Project Greenfield
+
+```NGINX | Redis | AWS |  PostgresQL``` |  [Github](https://github.com/SDC-Sedeco/QA-Service)
+
+Refactored a monolith design into microservices to scale for production level traffic.
+
 [![Project Greenfield](/images/SDC.png)](https://github.com/SDC-Sedeco/QA-Service)
 
 
 
-### Atelier - React | Styled Components | [Github](https://github.com/rpp30-fec-r34ct/FEC)
-[![Project Greenfield](/images/FEC.png)](https://github.com/rpp30-fec-r34ct/FEC)
+## Atelier
+```React | Styled Components``` | [Github](https://github.com/rpp30-fec-r34ct/FEC)
+
+Collaborated with a small team of engineers to spearhead a new design for an e-commerce platform.
+
+[![Project Greenfield](/images/QA.png)](https://github.com/rpp30-fec-r34ct/FEC)
