@@ -17,3 +17,10 @@ Account for case sensitivity and white spaces.
 
  ![String Search](/images/redo.png)
 
+ ### Explanation:
+ Check to see if the array has an exact match with the search string.
+
+ If there is no exact match, check to see if the elements in the array includes the search string as a substring.
+
+
+[Userful tool to check Regex](https://regex101.com/)
