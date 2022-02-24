@@ -17,25 +17,25 @@
     
 
     
-    <title>Posts</title>
-    <meta name="description" content="Software Developer from the Bay Area">
-    <meta name="keywords" content='louisa, software, portfolio, blog, hugo'>
+    <title>System Design Capstone</title>
+    <meta name="description" content="The project I learned from the most during HR.">
+    <meta name="keywords" content='louisa, software, portfolio, blog, hugo, system design'>
 
-    <meta property="og:url" content="https://laweeza.github.io/posts/">
+    <meta property="og:url" content="https://laweeza.github.io/posts/sdc/">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="Posts">
-    <meta property="og:description" content="Software Developer from the Bay Area">
+    <meta property="og:title" content="System Design Capstone">
+    <meta property="og:description" content="The project I learned from the most during HR.">
     <meta property="og:image" content="/images/profile.png">
 
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Posts">
-    <meta name="twitter:description" content="Software Developer from the Bay Area">
-    <meta property="twitter:domain" content="https://laweeza.github.io/posts/">
-    <meta property="twitter:url" content="https://laweeza.github.io/posts/">
+    <meta name="twitter:title" content="System Design Capstone">
+    <meta name="twitter:description" content="The project I learned from the most during HR.">
+    <meta property="twitter:domain" content="https://laweeza.github.io/posts/sdc/">
+    <meta property="twitter:url" content="https://laweeza.github.io/posts/sdc/">
     <meta name="twitter:image" content="/images/profile.png">
 
     
-    <link rel="canonical" href="https://laweeza.github.io/posts/" />
+    <link rel="canonical" href="https://laweeza.github.io/posts/sdc/" />
 
     <link rel="stylesheet" type="text/css" href="/css/normalize.min.css" media="print" onload="this.media='all'">
     <link rel="stylesheet" type="text/css" href="/css/main.css">
@@ -137,37 +137,53 @@
     </nav>
 </header>
 <main id="content">
-    <div class="container list-posts">
+    <div class="post container">
 
-    <h1 class="list-title">Posts</h2>
+    <div class="post-header-section">
+        <h1>System Design Capstone</h1>
+        <small role="doc-subtitle">The project I learned from the most during HR.</small>
+        <p class="post-date">
+            February 23, 2022
+        </p>
 
-    
+        <ul class="post-tags">
+        
+            <li class="post-tag"><a href="/tags/system-design">system design</a></li>
+        
+        </ul>
+    </div>
 
-    <h2 class="posts-year">2022</h2><article class="post-title">
-    <a href="/posts/terminal/" class="post-link">Terminal Commands</a>
-    <div class="flex-break"></div>
-    <span class="post-date">February 24, 2022</span>
-</article>
-<article class="post-title">
-    <a href="/posts/sdc2/" class="post-link">System Design Capstone</a>
-    <div class="flex-break"></div>
-    <span class="post-date">February 23, 2022</span>
-</article>
-<article class="post-title">
-    <a href="/posts/sdc/" class="post-link">System Design Capstone</a>
-    <div class="flex-break"></div>
-    <span class="post-date">February 23, 2022</span>
-</article>
-<article class="post-title">
-    <a href="/posts/string-search/" class="post-link">String Search</a>
-    <div class="flex-break"></div>
-    <span class="post-date">February 23, 2022</span>
-</article>
+    <div class="post-content">
+        <p>
+            <h2 id="part-1">Part 1</h2>
+<p>SDC (System Design Capstone) was one of the most rewarding, yet challenging, applications I have had to work on.</p>
+<p>Working with a team of 2 other engineers, our goal was to transform and breakdown a monolithic architecture into 3 different microservices. Our client had an e-commerce website with a legacy API, and needed us to revamp the backend to scale for production level web traffic. I was solely responsible for the user questions and answers widget, and was given millions of CSV files to load into the new database I had to design.</p>
+<p>I knew I had to collect my thoughts and started off with debating between the pros and cons of different types of databases. The final two databases I ended up choosing between was MongoDB (Mongoose) and PostgresQL. The &lsquo;correct&rsquo; choice would be based on the type of need.</p>
+<h3 id="mongodbmongoose">MongoDB/Mongoose</h3>
+<ul>
+<li>Scales horizontally (scale-out)</li>
+<li>Works well with rapidly-changing, multi-structured data</li>
+<li>Better for agile in the beginning</li>
+<li>JSON/JS based</li>
+<li>Document-Oriented (fast reads)</li>
+</ul>
+<h3 id="postgresql">PostgresQL</h3>
+<ul>
+<li>Scales vertically</li>
+<li>Relational data</li>
+<li>Data Integrity (ACID)</li>
+<li>Robust access-control system</li>
+<li>Fault-tolerant environments</li>
+</ul>
+<p>Unfortunately the decision was not as clear-cut as I had hoped. I had the hardest time deliberating between the two.</p>
 
-    
-
+        </p>
+    </div>
 </div>
 
+
+
+    
 
         </main><footer class="footer">
     <span>&copy; 2022 </span>
