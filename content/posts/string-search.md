@@ -15,7 +15,18 @@ Given an array of strings and a search string as parameters, return a sorted arr
 
 Account for case sensitivity and white spaces.
 
- ![String Search](/images/redo.png)
+ ```
+ const pokemon = ['Charmander', 'charmeleon', 'CHARIZARD', 'Venasaur', IVYSaur', 'Bulbasaue'];
+
+ function searchSearch(string, pokeArray) {
+   let exactMatch = array/filter(poke => poke.toLowerCase().trim() === string.replace(/\s+/g, '').toLowerCase());
+   if (exactMatch.length > 0) {
+     return exactMatch;
+   } else {
+     return array.filter(poke => poke.toLowerCase().trim().includes(string.replace(/\s+\g, '').toLowerCase()));
+   }
+ }
+ ```
 
  ### Explanation:
  Check to see if the array has an exact match with the search string.
