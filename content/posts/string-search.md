@@ -23,4 +23,4 @@ Account for case sensitivity and white spaces.
  If there is no exact match, check to see if the elements in the array includes the search string as a substring.
 
 
-[Userful tool to check Regex](https://regex101.com/)
+[Useful tool to check Regex](https://regex101.com/)
