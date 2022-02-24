@@ -15,8 +15,7 @@
       <guid>https://laweeza.github.io/posts/string-search/</guid>
       <description>String Search Given an array of strings and a search string as parameters, return a sorted array with these rules:
  Exact match Partial match Everything else  Account for case sensitivity and white spaces.
-Explanation: Check to see if the array has an exact match with the search string.
-If there is no exact match, check to see if the elements in the array includes the search string as a substring.</description>
+const pokemon = [&#39;Charmander&#39;, &#39;charmeleon&#39;, &#39;CHARIZARD&#39;, &#39;Venasaur&#39;, IVYSaur&#39;, &#39;Bulbasaue&#39;]; function searchSearch(string, pokeArray) { let exactMatch = array/filter(poke =&amp;gt; poke.toLowerCase().trim() === string.replace(/\s+/g, &#39;&#39;).toLowerCase()); if (exactMatch.length &amp;gt; 0) { return exactMatch; } else { return array.filter(poke =&amp;gt; poke.</description>
     </item>
     
     <item>

@@ -165,11 +165,20 @@
 <li>Everything else</li>
 </ul>
 <p>Account for case sensitivity and white spaces.</p>
-<p><img src="/images/redo.png" alt="String Search"></p>
-<h3 id="explanation">Explanation:</h3>
+<pre tabindex="0"><code>const pokemon = ['Charmander', 'charmeleon', 'CHARIZARD', 'Venasaur', IVYSaur', 'Bulbasaue'];
+
+function searchSearch(string, pokeArray) {
+  let exactMatch = array/filter(poke =&gt; poke.toLowerCase().trim() === string.replace(/\s+/g, '').toLowerCase());
+  if (exactMatch.length &gt; 0) {
+    return exactMatch;
+  } else {
+    return array.filter(poke =&gt; poke.toLowerCase().trim().includes(string.replace(/\s+\g, '').toLowerCase()));
+  }
+}
+</code></pre><h3 id="explanation">Explanation:</h3>
 <p>Check to see if the array has an exact match with the search string.</p>
 <p>If there is no exact match, check to see if the elements in the array includes the search string as a substring.</p>
-<p><a href="https://regex101.com/">Userful tool to check Regex</a></p>
+<p><a href="https://regex101.com/">Useful tool to check Regex</a></p>
 
         </p>
     </div>
