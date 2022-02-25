@@ -19,7 +19,7 @@ Account for case sensitivity and white spaces.
  const pokemon = ['Charmander', 'charmeleon', 'CHARIZARD', 'Venasaur', IVYSaur', 'Bulbasaue'];
 
  function searchSearch(string, pokeArray) {
-   let exactMatch = array/filter(poke => poke.toLowerCase().trim() === string.replace(/\s+/g, '').toLowerCase());
+   let exactMatch = array.filter(poke => poke.toLowerCase().trim() === string.replace(/\s+/g, '').toLowerCase());
    if (exactMatch.length > 0) {
      return exactMatch;
    } else {
