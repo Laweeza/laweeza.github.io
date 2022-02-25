@@ -1,51 +1,5 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Posts on Louisa Shing</title>
-    <link>https://laweeza.github.io/posts/</link>
-    <description>Recent content in Posts on Louisa Shing</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <lastBuildDate>Thu, 24 Feb 2022 00:48:37 -1000</lastBuildDate><atom:link href="https://laweeza.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Terminal Commands</title>
-      <link>https://laweeza.github.io/posts/terminal/</link>
-      <pubDate>Thu, 24 Feb 2022 00:48:37 -1000</pubDate>
-      
-      <guid>https://laweeza.github.io/posts/terminal/</guid>
-      <description>Git  Absolute Path to Current Repository: git rev-parse --show-toplevel  Finding IP  Wireless IP Address: ipconfig getifaddr en1 Ethernet IP Address: ipconfig getifaddr en0 More straightforward way: ifconfig | grep &amp;quot;inet &amp;quot; | grep -Fv 127.0.0.1 | awk &#39;{print $2}&#39;   Github Cheatsheet</description>
-    </item>
-    
-    <item>
-      <title>String Search</title>
-      <link>https://laweeza.github.io/posts/string-search/</link>
-      <pubDate>Wed, 23 Feb 2022 00:33:37 -0800</pubDate>
-      
-      <guid>https://laweeza.github.io/posts/string-search/</guid>
-      <description>String Search Given an array of strings and a search string as parameters, return a sorted array with these rules:
- Exact match Partial match Everything else  Account for case sensitivity and white spaces.
-const pokemon = [&#39;Charmander&#39;, &#39;charmeleon&#39;, &#39;CHARIZARD&#39;, &#39;Venasaur&#39;, IVYSaur&#39;, &#39;Bulbasaue&#39;]; function searchSearch(string, pokeArray) { let exactMatch = array/filter(poke =&amp;gt; poke.toLowerCase().trim() === string.replace(/\s+/g, &#39;&#39;).toLowerCase()); if (exactMatch.length &amp;gt; 0) { return exactMatch; } else { return array.filter(poke =&amp;gt; poke.</description>
-    </item>
-    
-    <item>
-      <title>System Design Capstone</title>
-      <link>https://laweeza.github.io/posts/sdc/</link>
-      <pubDate>Wed, 23 Feb 2022 00:33:37 -0800</pubDate>
-      
-      <guid>https://laweeza.github.io/posts/sdc/</guid>
-      <description>Part 1 SDC (System Design Capstone) was one of the most rewarding, yet challenging, applications I have had to work on.
-Working with a team of 2 other engineers, our goal was to transform and breakdown a monolithic architecture into 3 different microservices. Our client had an e-commerce website with a legacy API, and needed us to revamp the backend to scale for production level web traffic. I was solely responsible for the user questions and answers widget, and was given millions of CSV files to load into the new database I had to design.</description>
-    </item>
-    
-    <item>
-      <title>System Design Capstone</title>
-      <link>https://laweeza.github.io/posts/sdc2/</link>
-      <pubDate>Wed, 23 Feb 2022 00:33:37 -0800</pubDate>
-      
-      <guid>https://laweeza.github.io/posts/sdc2/</guid>
-      <description>Part 2 While designing the schemas for my database, I found clear relations between the users, questions, and answers. I had a hard time creating schemas with Mongoose, even when I tried to embed the documents. Mapping out the data into relational tables seemed more intuitive to me.
-MongoDB/Mongoose initially seemed really appealing since I felt that it would allow me to quickly play with the schemas. It was more flexible than a relational database.</description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Louisa Shing</title><link>https://laweeza.github.io/posts/</link><description>Recent content in Posts on Louisa Shing</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Thu, 24 Feb 2022 00:48:37 -1000</lastBuildDate><atom:link href="https://laweeza.github.io/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Terminal Commands</title><link>https://laweeza.github.io/posts/terminal/</link><pubDate>Thu, 24 Feb 2022 00:48:37 -1000</pubDate><guid>https://laweeza.github.io/posts/terminal/</guid><description>Git Absolute Path to Current Repository: git rev-parse --show-toplevel Finding IP Wireless IP Address: ipconfig getifaddr en1 Ethernet IP Address: ipconfig getifaddr en0 More straightforward way: ifconfig | grep &amp;quot;inet &amp;quot; | grep -Fv 127.0.0.1 | awk '{print $2}' Github Cheatsheet</description></item><item><title>String Search</title><link>https://laweeza.github.io/posts/string-search/</link><pubDate>Wed, 23 Feb 2022 00:33:37 -0800</pubDate><guid>https://laweeza.github.io/posts/string-search/</guid><description>String Search Given an array of strings and a search string as parameters, return a sorted array with these rules:
+Exact match Partial match Everything else Account for case sensitivity and white spaces.
+const pokemon = ['Charmander', 'charmeleon', 'CHARIZARD', 'Venasaur', IVYSaur', 'Bulbasaue']; function searchSearch(string, pokeArray) { let exactMatch = array.filter(poke =&amp;gt; poke.toLowerCase().trim() === string.replace(/\s+/g, '').toLowerCase()); if (exactMatch.length &amp;gt; 0) { return exactMatch; } else { return array.filter(poke =&amp;gt; poke.</description></item><item><title>System Design Capstone</title><link>https://laweeza.github.io/posts/sdc/</link><pubDate>Wed, 23 Feb 2022 00:33:37 -0800</pubDate><guid>https://laweeza.github.io/posts/sdc/</guid><description>Part 1 SDC (System Design Capstone) was one of the most rewarding, yet challenging, applications I have had to work on.
+Working with a team of 2 other engineers, our goal was to transform and breakdown a monolithic architecture into 3 different microservices. Our client had an e-commerce website with a legacy API, and needed us to revamp the backend to scale for production level web traffic. I was solely responsible for the user questions and answers widget, and was given millions of CSV files to load into the new database I had to design.</description></item><item><title>System Design Capstone</title><link>https://laweeza.github.io/posts/sdc2/</link><pubDate>Wed, 23 Feb 2022 00:33:37 -0800</pubDate><guid>https://laweeza.github.io/posts/sdc2/</guid><description>Part 2 While designing the schemas for my database, I found clear relations between the users, questions, and answers. I had a hard time creating schemas with Mongoose, even when I tried to embed the documents. Mapping out the data into relational tables seemed more intuitive to me.
+MongoDB/Mongoose initially seemed really appealing since I felt that it would allow me to quickly play with the schemas. It was more flexible than a relational database.</description></item></channel></rss>

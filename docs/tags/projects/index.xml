@@ -1,26 +1,6 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>projects on Louisa Shing</title>
-    <link>https://laweeza.github.io/tags/projects/</link>
-    <description>Recent content in projects on Louisa Shing</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="https://laweeza.github.io/tags/projects/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Projects</title>
-      <link>https://laweeza.github.io/projects/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://laweeza.github.io/projects/</guid>
-      <description>Quick Bagel React Native Geolocation | Expo | MongoDB Github
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>projects on Louisa Shing</title><link>https://laweeza.github.io/tags/projects/</link><description>Recent content in projects on Louisa Shing</description><generator>Hugo -- gohugo.io</generator><language>en</language><atom:link href="https://laweeza.github.io/tags/projects/index.xml" rel="self" type="application/rss+xml"/><item><title>Projects</title><link>https://laweeza.github.io/projects/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://laweeza.github.io/projects/</guid><description>Quick Bagel React Native Geolocation | Expo | MongoDB Github
 Lead and designed user-driven application features for a mobile errand-tracking application.
-
 Project Greenfield NGINX | Redis | PostgresQL | AWS Github
 Refactored a monolith design into microservices to scale for production level traffic.
-
 Atelier React | Styled Components | Heroku Github
-Collaborated with a small team of engineers to spearhead a new design for an e-commerce platform.</description>
-    </item>
-    
-  </channel>
-</rss>
+Collaborated with a small team of engineers to spearhead a new design for an e-commerce platform.</description></item></channel></rss>
