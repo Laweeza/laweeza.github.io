@@ -41,7 +41,7 @@ url = "mailto:louieshing@gmail.com"
 
   [[menu.main]]
     name = "Portfolio"
-    identifier = "portfolio"
+    identifier = "home"
     url = "/"
     weight = 100
 
