@@ -3,62 +3,66 @@ defaultContentLanguage = "en"
 languageCode = "en"
 title = "Louisa Shing"
 
+# theme as git submodule
+theme = "anatole"
+
 
 publishDir = "docs"
 
-# Automatically generate robots.txt
+summarylength =10
+enableEmoji = true
 enableRobotsTXT = true
 
 pygmentsStyle = "monokai"
 
 [params]
-  socialIcons = [
-    {name = "gmail", url = "mailto:louieshing@gmail.com"},
-    {name = "linkedin", url = "https://www.linkedin.com/in/louisa-shing/"},
-    {name = "github", url = "https://github.com/Laweeza"},
-  ]
+description = """
+Louisa Shing
+Software Developer from SF
+"""
 
-  avatarUrl = "/images/profile.png"
+# socialIcons
 
-  avatarSize = "size-m"
+[[params.socialIcons]]
+icon = "fab fa-linkedin"
+title = "Linkedin"
+url = "https://www.linkedin.com/in/louisa-shing/"
 
-  description = "Software Developer from the Bay Area"
 
-  accentColor = "#2EC4B6"
+[[params.socialIcons]]
+icon = "fab fa-github"
+title = "Github"
+url = "https://github.com/Laweeza"
 
-  metaKeywords = ["louisa", "software", "portfolio", "blog", "hugo"]
+
+[[params.socialIcons]]
+icon = "fas fa-envelope"
+title = "e-mail"
+url = "mailto:louieshing@gmail.com"
 
 [menu]
+
   [[menu.main]]
-    # Unique identifer for a menu item
-    identifier = "projects"
-    url = "/projects/"
-    # You can add extra information before the name (HTML format is supported), such as icons
-    pre = ""
-    # You can add extra information after the name (HTML format is supported), such as icons
-    post = ""
-    # Display name
-    name = "Projects"
-    # Weights are used to determine the ordering
+    name = "Portfolio"
+    identifier = "portfolio"
+    url = "/portfolio/"
     weight = 1
 
   [[menu.main]]
-    identifier = "about"
     name = "About"
+    identifier = "about"
     url = "/about/"
     weight = 2
 
 
   [[menu.main]]
-    identifier = "posts"
     name = "Posts"
+    identifier = "posts"
     url = "/posts/"
     weight = 3
 
 [[menu.main]]
-    identifier = "tags"
     name = "Tags"
+    identifier = "tags"
     url = "/tags/"
     weight = 4
-
-    # We use feather-icons: https://feathericons.com/

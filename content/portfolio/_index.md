@@ -1,8 +1,7 @@
 ---
-title: "Projects"
-description: "Some stuff I made."
-tags: ["projects"]
-type: page
+title: 'Portfolio'
+draft: false
+description: 'Welcome to my Portfolio!'
 ---
 
 ## Quick Bagel

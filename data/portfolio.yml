@@ -1,0 +1,30 @@
+portfolioitems:
+  # portfolio category
+  - title: Projects
+    # items within a category
+    portfolioitem:
+      - name: Quick Bagel
+        image: '/images/BOC.png'
+        link: https://github.com/rpp30-boc-heartbleed/whimsical
+        description: 'Lead and designed user-driven application features for a mobile errand-tracking application.'
+        tags:
+          - React Native
+          - Geolocation
+
+      - name: Project Greenfield
+        image: '/images/SDC.png'
+        link: https://github.com/SDC-Sedeco/QA-Service
+        description: 'Refactored a monolith design into microservices to scale for production level traffic.'
+        tags:
+          - NGINX
+          - Redis
+          - PostgresQL
+
+      - name: Atelier
+        image: '/images/QA.png'
+        link: https://github.com/rpp30-fec-r34ct/FEC
+        description: 'Collaborated with a small team of engineers to spearhead a new design for an e-commerce platform.'
+        tags:
+          - React
+          - Styled Components
+          - Heroku
