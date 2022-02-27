@@ -10,6 +10,7 @@ portfolioitems:
         tags:
           - React Native
           - Geolocation
+          - User Interface
 
       - name: Project Greenfield
         image: '/images/loader.png'
@@ -19,6 +20,8 @@ portfolioitems:
           - NGINX
           - Redis
           - PostgresQL
+          - AWS
+          - System Design
 
       - name: Atelier
         image: '/images/QA.png'
