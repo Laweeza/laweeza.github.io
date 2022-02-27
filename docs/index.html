@@ -16,10 +16,10 @@ Software Developer from SF
 <link rel=stylesheet href=/fontawesome/css/fontawesome.min.69685904d5c2a0c6258d03c207b778c10466edf6cea928cc0164c376b0ad0930.css integrity="sha256-aWhZBNXCoMYljQPCB7d4wQRm7fbOqSjMAWTDdrCtCTA=" crossorigin=anonymous type=text/css>
 <link rel=stylesheet href=/fontawesome/css/solid.min.6d585e78d28cce1200d39fb133c92ed83df01738da721d0f48fb6eac62d24e04.css integrity="sha256-bVheeNKMzhIA05+xM8ku2D3wFzjach0PSPturGLSTgQ=" crossorigin=anonymous type=text/css>
 <link rel=stylesheet href=/fontawesome/css/brands.min.6b00d96498d59caa0dbcf9b49d30d821915291f2ceb0e19248523c8607ff43fa.css integrity="sha256-awDZZJjVnKoNvPm0nTDYIZFSkfLOsOGSSFI8hgf/Q/o=" crossorigin=anonymous type=text/css>
-<link rel="shortcut icon" href=/favicons/gothlou.pngfavicon.ico type=image/x-icon>
-<link rel=apple-touch-icon sizes=180x180 href=/favicons/gothlou.pngapple-touch-icon.png>
-<link rel=icon type=image/png sizes=32x32 href=/favicons/gothlou.pngfavicon-32x32.png>
-<link rel=icon type=image/png sizes=16x16 href=/favicons/gothlou.pngfavicon-16x16.png>
+<link rel="shortcut icon" href=/favicon.ico type=image/x-icon>
+<link rel=apple-touch-icon sizes=180x180 href=/apple-touch-icon.png>
+<link rel=icon type=image/png sizes=32x32 href=/favicon-32x32.png>
+<link rel=icon type=image/png sizes=16x16 href=/favicon-16x16.png>
 <link rel=canonical href=https://laweeza.github.io/>
 <link rel=alternate type=application/rss+xml href=/index.xml title="Louisa Shing">
 <script type=text/javascript src=/js/anatole-header.min.46e6a54097480084f8f52c20ca1aa7425b4fad17029a887fd4017b12e311a72d.js integrity="sha256-RualQJdIAIT49SwgyhqnQltPrRcCmoh/1AF7EuMRpy0=" crossorigin=anonymous></script>
@@ -88,7 +88,7 @@ animated fadeInDown">
 <nav class=nav>
 <ul class=nav__list id=navMenu>
 <li class=nav__list-item>
-<a href=/portfolio/ title>Portfolio</a>
+<a class=nav__link--active href=/ title>Portfolio</a>
 </li>
 <li class=nav__list-item>
 <a href=/about/ title>About</a>
@@ -114,38 +114,75 @@ animated fadeInDown">
 </header>
 <div class="post
 animated fadeInDown">
-<div class=post__content>
+<h2 class=portfolio__title>Projects</h2>
+<div class=portfolio>
+<div class="portfolio__image-wrapper
+portfolio__image-wrapper--right">
+<a href=https://github.com/rpp30-boc-heartbleed/whimsical target=_blank rel=noopener>
+<img class=portfolio__image src=/images/.png alt="Quick Bagel">
+</a>
+</div>
+<div class="portfolio__description
+portfolio__description--left">
+<h2>Quick Bagel</h2>
+<div class=info>
+</div>
+<p>Lead and designed user-driven application features for a mobile errand-tracking application.</p>
+<div class=portfolio__button-wrapper>
+<a class=portfolio__button href=https://github.com/rpp30-boc-heartbleed/whimsical target=_blank rel=noopener>Visit Github</a>
+</div>
+<div class=seperator>
+<p class=tag>React Native</p>
+<p class=tag>Geolocation</p>
 </div>
 </div>
-<div class="post
-animated fadeInDown">
-<div class=post__content>
-<h3><a href=/posts/sdc/>System Design Capstone Part 1</a></h3>
-Part 1 SDC (System Design Capstone) was one of the most rewarding, yet challenging, applications I have had to work on.
 </div>
-<div class=post__footer>
-<em class="fas fa-calendar-day"></em>
-<span class=post__footer-date>
-Wed, Feb 23, 2022
-</span>
-<span><a class=tag href=/tags/system-design/>system design</a></span>
+<div class=portfolio>
+<div class="portfolio__image-wrapper
+portfolio__image-wrapper--left">
+<a href=https://github.com/SDC-Sedeco/QA-Service target=_blank rel=noopener>
+<img class=portfolio__image src=/images/SDC.png alt="Project Greenfield">
+</a>
 </div>
+<div class="portfolio__description
+portfolio__description--right">
+<h2>Project Greenfield</h2>
+<div class=info>
 </div>
-<div class="post
-animated fadeInDown">
-<div class=post__content>
-<h3><a href=/posts/sdc2/>System Design Capstone Part 2</a></h3>
-Part 2 While designing the schemas for my database, I found clear relations between the users, questions, and answers.
+<p>Refactored a monolith design into microservices to scale for production level traffic.</p>
+<div class=portfolio__button-wrapper>
+<a class=portfolio__button href=https://github.com/SDC-Sedeco/QA-Service target=_blank rel=noopener>Visit Github</a>
 </div>
-<div class=post__footer>
-<em class="fas fa-calendar-day"></em>
-<span class=post__footer-date>
-Wed, Feb 23, 2022
-</span>
-<span><a class=tag href=/tags/system-design/>system design</a></span>
+<div class=seperator>
+<p class=tag>NGINX</p>
+<p class=tag>Redis</p>
+<p class=tag>PostgresQL</p>
 </div>
 </div>
-<div class=pagination>
+</div>
+<div class=portfolio>
+<div class="portfolio__image-wrapper
+portfolio__image-wrapper--right">
+<a href=https://github.com/rpp30-fec-r34ct/FEC target=_blank rel=noopener>
+<img class=portfolio__image src=/images/QA.png alt=Atelier>
+</a>
+</div>
+<div class="portfolio__description
+portfolio__description--left">
+<h2>Atelier</h2>
+<div class=info>
+</div>
+<p>Collaborated with a small team of engineers to spearhead a new design for an e-commerce platform.</p>
+<div class=portfolio__button-wrapper>
+<a class=portfolio__button href=https://github.com/rpp30-fec-r34ct/FEC target=_blank rel=noopener>Visit Github</a>
+</div>
+<div class=seperator>
+<p class=tag>React</p>
+<p class=tag>Styled Components</p>
+<p class=tag>Heroku</p>
+</div>
+</div>
+</div>
 </div>
 </main>
 </div><footer class="footer footer__base">
