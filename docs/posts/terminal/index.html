@@ -1,169 +1,453 @@
-<!doctype html><html dir=ltr lang=en data-theme class=html><head>
-<title>
-|
-Terminal Commands
-</title>
-<meta charset=utf-8><meta name=generator content="Hugo 0.92.2"><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover">
-<meta name=description content="
+<!DOCTYPE html>
+<html
+  dir="ltr"
+  lang="en"
+  data-theme=""
+  class="html"
+><head>
+  <title>
+    
+      
+        |
+        Terminal Commands
+
+
+      
+
+
+    
+  </title>
+
+  
+  <meta charset="utf-8" /><meta name="generator" content="Hugo 0.92.2" /><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <meta
+    name="description"
+    content="
       Useful commands that I forget about.
 
 
-    ">
-<link rel=stylesheet href=/scss/main.min.0dc1c3e6ef0d8512af8cd086dcbf94d998746652b27945d7643857a121058326.css integrity="sha256-DcHD5u8NhRKvjNCG3L+U2Zh0ZlKyeUXXZDhXoSEFgyY=" crossorigin=anonymous type=text/css>
-<link rel=stylesheet href=/css/markupHighlight.min.31b0a1f317f55c529a460897848c97436bb138b19c399b37de70d463a8bf6ed5.css integrity="sha256-MbCh8xf1XFKaRgiXhIyXQ2uxOLGcOZs33nDUY6i/btU=" crossorigin=anonymous type=text/css>
-<link rel=stylesheet href=/fontawesome/css/fontawesome.min.69685904d5c2a0c6258d03c207b778c10466edf6cea928cc0164c376b0ad0930.css integrity="sha256-aWhZBNXCoMYljQPCB7d4wQRm7fbOqSjMAWTDdrCtCTA=" crossorigin=anonymous type=text/css>
-<link rel=stylesheet href=/fontawesome/css/solid.min.6d585e78d28cce1200d39fb133c92ed83df01738da721d0f48fb6eac62d24e04.css integrity="sha256-bVheeNKMzhIA05+xM8ku2D3wFzjach0PSPturGLSTgQ=" crossorigin=anonymous type=text/css>
-<link rel=stylesheet href=/fontawesome/css/brands.min.6b00d96498d59caa0dbcf9b49d30d821915291f2ceb0e19248523c8607ff43fa.css integrity="sha256-awDZZJjVnKoNvPm0nTDYIZFSkfLOsOGSSFI8hgf/Q/o=" crossorigin=anonymous type=text/css>
-<link rel="shortcut icon" href=/favicon.ico type=image/x-icon>
-<link rel=apple-touch-icon sizes=180x180 href=/apple-touch-icon.png>
-<link rel=icon type=image/png sizes=32x32 href=/favicon-32x32.png>
-<link rel=icon type=image/png sizes=16x16 href=/favicon-16x16.png>
-<link rel=canonical href=https://laweeza.github.io/posts/terminal/>
-<script type=text/javascript src=/js/anatole-header.min.46e6a54097480084f8f52c20ca1aa7425b4fad17029a887fd4017b12e311a72d.js integrity="sha256-RualQJdIAIT49SwgyhqnQltPrRcCmoh/1AF7EuMRpy0=" crossorigin=anonymous></script>
-<script type=text/javascript src=/js/anatole-theme-switcher.min.5557c8ff5617a01067ac258fd70b9b992506e379317b0da51e5e0f6e018b408a.js integrity="sha256-VVfI/1YXoBBnrCWP1wubmSUG43kxew2lHl4PbgGLQIo=" crossorigin=anonymous></script>
-<meta name=twitter:card content="summary">
-<meta name=twitter:title content="Terminal Commands">
-<meta name=twitter:description content="Useful commands that I forget about.">
-<meta property="og:title" content="Terminal Commands">
-<meta property="og:description" content="Useful commands that I forget about.">
-<meta property="og:type" content="article">
-<meta property="og:url" content="https://laweeza.github.io/posts/terminal/"><meta property="article:section" content="posts">
-<meta property="article:published_time" content="2022-02-24T00:48:37-10:00">
-<meta property="article:modified_time" content="2022-02-24T00:48:37-10:00">
-<script type=application/ld+json>{"@context":"http://schema.org","@type":"BlogPosting","articleSection":"posts","name":"Terminal Commands","headline":"Terminal Commands","alternativeHeadline":"","description":"
+    "
+  />
+  
+  
+    
+    
+    <link
+      rel="stylesheet"
+      href="/scss/main.min.0dc1c3e6ef0d8512af8cd086dcbf94d998746652b27945d7643857a121058326.css"
+      integrity="sha256-DcHD5u8NhRKvjNCG3L&#43;U2Zh0ZlKyeUXXZDhXoSEFgyY="
+      crossorigin="anonymous"
+      type="text/css"
+    />
+
+  
+
+  
+  <link
+    rel="stylesheet"
+    href="/css/markupHighlight.min.31b0a1f317f55c529a460897848c97436bb138b19c399b37de70d463a8bf6ed5.css"
+    integrity="sha256-MbCh8xf1XFKaRgiXhIyXQ2uxOLGcOZs33nDUY6i/btU="
+    crossorigin="anonymous"
+    type="text/css"
+  />
+  
+  
+  <link
+    rel="stylesheet"
+    href="/fontawesome/css/fontawesome.min.69685904d5c2a0c6258d03c207b778c10466edf6cea928cc0164c376b0ad0930.css"
+    integrity="sha256-aWhZBNXCoMYljQPCB7d4wQRm7fbOqSjMAWTDdrCtCTA="
+    crossorigin="anonymous"
+    type="text/css"
+  />
+  
+  <link
+    rel="stylesheet"
+    href="/fontawesome/css/solid.min.6d585e78d28cce1200d39fb133c92ed83df01738da721d0f48fb6eac62d24e04.css"
+    integrity="sha256-bVheeNKMzhIA05&#43;xM8ku2D3wFzjach0PSPturGLSTgQ="
+    crossorigin="anonymous"
+    type="text/css"
+  />
+  
+  <link
+    rel="stylesheet"
+    href="/fontawesome/css/brands.min.6b00d96498d59caa0dbcf9b49d30d821915291f2ceb0e19248523c8607ff43fa.css"
+    integrity="sha256-awDZZJjVnKoNvPm0nTDYIZFSkfLOsOGSSFI8hgf/Q/o="
+    crossorigin="anonymous"
+    type="text/css"
+  />
+  
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+
+  <link rel="canonical" href="https://laweeza.github.io/posts/terminal/" />
+
+  
+  
+  
+  
+  <script
+    type="text/javascript"
+    src="/js/anatole-header.min.46e6a54097480084f8f52c20ca1aa7425b4fad17029a887fd4017b12e311a72d.js"
+    integrity="sha256-RualQJdIAIT49SwgyhqnQltPrRcCmoh/1AF7EuMRpy0="
+    crossorigin="anonymous"
+  ></script>
+
+  
+    
+    
+    <script
+      type="text/javascript"
+      src="/js/anatole-theme-switcher.min.5557c8ff5617a01067ac258fd70b9b992506e379317b0da51e5e0f6e018b408a.js"
+      integrity="sha256-VVfI/1YXoBBnrCWP1wubmSUG43kxew2lHl4PbgGLQIo="
+      crossorigin="anonymous"
+    ></script>
+
+  
+
+  
+
+
+  
+  <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Terminal Commands"/>
+<meta name="twitter:description" content="Useful commands that I forget about."/>
+
+
+
+  <meta property="og:title" content="Terminal Commands" />
+<meta property="og:description" content="Useful commands that I forget about." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://laweeza.github.io/posts/terminal/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2022-02-24T00:48:37-10:00" />
+<meta property="article:modified_time" content="2022-02-24T00:48:37-10:00" />
+
+
+
+
+  
+  
+  
+  
+  <script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "articleSection": "posts",
+        "name": "Terminal Commands",
+        "headline": "Terminal Commands",
+        "alternativeHeadline": "",
+        "description": "
       Useful commands that I forget about.
 
 
-    ","inLanguage":"en","isFamilyFriendly":"true","mainEntityOfPage":{"@type":"WebPage","@id":"https:\/\/laweeza.github.io\/posts\/terminal\/"},"author":{"@type":"Person","name":""},"creator":{"@type":"Person","name":""},"accountablePerson":{"@type":"Person","name":""},"copyrightHolder":{"@type":"Person","name":""},"copyrightYear":"2022","dateCreated":"2022-02-24T00:48:37.00Z","datePublished":"2022-02-24T00:48:37.00Z","dateModified":"2022-02-24T00:48:37.00Z","publisher":{"@type":"Organization","name":null,"url":"https://laweeza.github.io/","logo":{"@type":"ImageObject","url":"https:\/\/laweeza.github.io\/favicon-32x32.png","width":"32","height":"32"}},"image":[],"url":"https:\/\/laweeza.github.io\/posts\/terminal\/","wordCount":"136","genre":[],"keywords":["git","terminal"]}</script>
+    ",
+        "inLanguage": "en",
+        "isFamilyFriendly": "true",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/laweeza.github.io\/posts\/terminal\/"
+        },
+        "author" : {
+            "@type": "Person",
+            "name": ""
+        },
+        "creator" : {
+            "@type": "Person",
+            "name": ""
+        },
+        "accountablePerson" : {
+            "@type": "Person",
+            "name": ""
+        },
+        "copyrightHolder" : {
+            "@type": "Person",
+            "name": ""
+        },
+        "copyrightYear" : "2022",
+        "dateCreated": "2022-02-24T00:48:37.00Z",
+        "datePublished": "2022-02-24T00:48:37.00Z",
+        "dateModified": "2022-02-24T00:48:37.00Z",
+        "publisher":{
+            "@type":"Organization",
+            "name":  null ,
+            "url": "https://laweeza.github.io/",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "https:\/\/laweeza.github.io\/favicon-32x32.png",
+                "width":"32",
+                "height":"32"
+            }
+        },
+        "image": 
+      [
+      ]
+
+    ,
+        "url" : "https:\/\/laweeza.github.io\/posts\/terminal\/",
+        "wordCount" : "136",
+        "genre" : [ ],
+        "keywords" : [ 
+      
+      "git"
+
+    
+      
+        ,
+
+      
+      "terminal"
+
+    ]
+    }
+  </script>
+
+
+
 </head>
-<body class="body theme--light">
-<div class=wrapper>
-<aside class=wrapper__sidebar><div class="sidebar
-animated fadeInDown">
-<div class=sidebar__content>
-<div class=sidebar__introduction>
-<img class=sidebar__introduction-profileimage src=/images/profile.png alt="profile picture">
-<h1 class=sidebar__introduction-title>
-<a href=/></a>
-</h1>
-<div class=sidebar__introduction-description>
-<p>Louisa Shing<br>Software Developer from SF<br></p>
-</div>
-</div>
-<ul class=sidebar__list>
-<li class=sidebar__list-item>
-<a href=https://www.linkedin.com/in/louisa-shing/ rel=me aria-label=Linkedin title=Linkedin>
-<i class="fab fa-linkedin fa-2x" aria-hidden=true></i>
-</a>
-</li>
-<li class=sidebar__list-item>
-<a href=https://github.com/Laweeza rel=me aria-label=Github title=Github>
-<i class="fab fa-github fa-2x" aria-hidden=true></i>
-</a>
-</li>
-<li class=sidebar__list-item>
-<a href=mailto:louieshing@gmail.com rel=me aria-label=e-mail title=e-mail>
-<i class="fas fa-envelope fa-2x" aria-hidden=true></i>
-</a>
-</li>
-</ul>
-</div><footer class="footer footer__sidebar">
-<ul class=footer__list>
-<li class=footer__item>
-&copy;
-2022
-</li>
-</ul>
+<body
+    
+      class="body theme--light"
+
+    
+  >
+    <div class="wrapper">
+      <aside class="wrapper__sidebar"><div
+  class="sidebar
+    animated fadeInDown
+
+  "
+>
+  <div class="sidebar__content">
+    <div class="sidebar__introduction">
+      <img
+        class="sidebar__introduction-profileimage"
+        src="/images/profile.png"
+        alt="profile picture"
+      />
+      <h1 class="sidebar__introduction-title">
+        <a href="/"></a>
+      </h1>
+      <div class="sidebar__introduction-description">
+        <p>Louisa Shing<br />Software Developer from SF<br /></p>
+      </div>
+    </div>
+    <ul class="sidebar__list">
+      
+        <li class="sidebar__list-item">
+          <a href="https://www.linkedin.com/in/louisa-shing/" rel="me" aria-label="Linkedin" title="Linkedin">
+            <i class="fab fa-linkedin fa-2x" aria-hidden="true"></i>
+          </a>
+        </li>
+
+      
+        <li class="sidebar__list-item">
+          <a href="https://github.com/Laweeza" rel="me" aria-label="Github" title="Github">
+            <i class="fab fa-github fa-2x" aria-hidden="true"></i>
+          </a>
+        </li>
+
+      
+        <li class="sidebar__list-item">
+          <a href="mailto:louieshing@gmail.com" rel="me" aria-label="e-mail" title="e-mail">
+            <i class="fas fa-envelope fa-2x" aria-hidden="true"></i>
+          </a>
+        </li>
+
+      
+    </ul>
+  </div><footer class="footer footer__sidebar">
+  <ul class="footer__list">
+    <li class="footer__item">
+      &copy;
+      
+        
+        2022
+
+
+      
+    </li>
+    
+  </ul>
 </footer>
-<script type=text/javascript src=/js/medium-zoom.min.fae9ac8895995fe91958b3954be11e96025824a04770726a3531e119ddd2d576.js integrity="sha256-+umsiJWZX+kZWLOVS+EelgJYJKBHcHJqNTHhGd3S1XY=" crossorigin=anonymous></script></div>
+  
+  <script
+    type="text/javascript"
+    src="/js/medium-zoom.min.fae9ac8895995fe91958b3954be11e96025824a04770726a3531e119ddd2d576.js"
+    integrity="sha256-&#43;umsiJWZX&#43;kZWLOVS&#43;EelgJYJKBHcHJqNTHhGd3S1XY="
+    crossorigin="anonymous"
+  ></script></div>
 </aside>
-<main class=wrapper__main>
-<header class=header><div class="animated fadeInDown">
-<a role=button class=navbar-burger data-target=navMenu aria-label=menu aria-expanded=false>
-<span aria-hidden=true class=navbar-burger__line></span>
-<span aria-hidden=true class=navbar-burger__line></span>
-<span aria-hidden=true class=navbar-burger__line></span>
-</a>
-<nav class=nav>
-<ul class=nav__list id=navMenu>
-<li class=nav__list-item>
-<a href=/ title>Portfolio</a>
-</li>
-<li class=nav__list-item>
-<a href=/about/ title>About</a>
-</li>
-<li class=nav__list-item>
-<a href=/posts/ title>Posts</a>
-</li>
-<li class=nav__list-item>
-<a href=/tags/ title>Tags</a>
-</li>
-</ul>
-<ul class="nav__list nav__list--end">
-<li class=nav__list-item>
-<div class=themeswitch>
-<a title="Switch Theme">
-<i class="fas fa-adjust fa-fw" aria-hidden=true></i>
-</a>
-</div>
-</li>
-</ul>
-</nav>
+      <main class="wrapper__main">
+        <header class="header"><div
+  class="
+    animated fadeInDown
+
+  "
+>
+  <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
+    <span aria-hidden="true" class="navbar-burger__line"></span>
+    <span aria-hidden="true" class="navbar-burger__line"></span>
+    <span aria-hidden="true" class="navbar-burger__line"></span>
+  </a>
+  <nav class="nav">
+    <ul class="nav__list" id="navMenu">
+      
+      
+        
+        <li class="nav__list-item">
+          <a
+            
+            href="/"
+            
+            title=""
+            >Portfolio</a
+          >
+        </li>
+
+      
+        
+        <li class="nav__list-item">
+          <a
+            
+            href="/about/"
+            
+            title=""
+            >About</a
+          >
+        </li>
+
+      
+        
+        <li class="nav__list-item">
+          <a
+            
+            href="/posts/"
+            
+            title=""
+            >Posts</a
+          >
+        </li>
+
+      
+        
+        <li class="nav__list-item">
+          <a
+            
+            href="/tags/"
+            
+            title=""
+            >Tags</a
+          >
+        </li>
+
+      
+    </ul>
+    <ul class="nav__list nav__list--end">
+      
+      
+        <li class="nav__list-item">
+          <div class="themeswitch">
+            <a title="Switch Theme">
+              <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+            </a>
+          </div>
+        </li>
+
+      
+    </ul>
+  </nav>
 </div>
 </header>
-<div class="post
-animated fadeInDown">
-<div class=post__content>
-<h1>Terminal Commands</h1>
-<ul class=post__meta>
-<li class=post__meta-item>
-<em class="fas fa-calendar-day post__meta-icon"></em>
-<span class=post__meta-text>
-Thu, Feb 24, 2022
-</span>
-</li>
-<li class=post__meta-item>
-<em class="fas fa-stopwatch post__meta-icon"></em>
-<span class=post__meta-text>One-minute read</span>
-</li>
-</ul>
-<h3 id=git>Git</h3>
+  <div
+    class="post 
+      animated fadeInDown
+
+    "
+  >
+    
+    <div class="post__content">
+      <h1>Terminal Commands</h1>
+      
+        <ul class="post__meta">
+          <li class="post__meta-item">
+            <em class="fas fa-calendar-day post__meta-icon"></em>
+            <span class="post__meta-text"
+              >
+                Thu, Feb 24, 2022
+
+
+              
+            </span>
+          </li>
+          <li class="post__meta-item">
+            <em class="fas fa-stopwatch post__meta-icon"></em>
+            <span class="post__meta-text">One-minute read</span>
+          </li>
+        </ul>
+
+      <h3 id="git">Git</h3>
 <ul>
 <li>Absolute Path to Current Repository: <code>git rev-parse --show-toplevel</code></li>
 <li>Uninitialize git: <code>rm -rf .git</code></li>
 <li>Reset remote url: <code>git remote set-url origin git@github.com:Laweeza/repo-name.git</code></li>
-<li>Delete file: <code>git rm &lt;file name></code></li>
+<li>Delete file: <code>git rm &lt;file name&gt;</code></li>
 <li>Remove directory from git but not local: <code>git rm -r --cached myFolder</code></li>
-<li>Move or rename a file: <code>git mv &lt;options>…​ &lt;args>…​</code> (<a href=https://git-scm.com/docs/git-mv>docs</a>)</li>
-<li>Rename a branch while pointed to any branch: <code>git branch -m &lt;oldname> &lt;newname></code></li>
-<li>Rename current branch: <code>git branch -m &lt;newname></code></li>
-<li>Push to local branch and reset upstream branch: <code>git push origin -u &lt;newname></code></li>
-<li>Delete the remote branch: <code>git push origin --delete &lt;oldname></code></li>
+<li>Move or rename a file: <code>git mv &lt;options&gt;…​ &lt;args&gt;…​</code> (<a href="https://git-scm.com/docs/git-mv">docs</a>)</li>
+<li>Rename a branch while pointed to any branch: <code>git branch -m &lt;oldname&gt; &lt;newname&gt;</code></li>
+<li>Rename current branch: <code>git branch -m &lt;newname&gt;</code></li>
+<li>Push to local branch and reset upstream branch: <code>git push origin -u &lt;newname&gt;</code></li>
+<li>Delete the remote branch: <code>git push origin --delete &lt;oldname&gt;</code></li>
 </ul>
-<h3 id=adding-aliases>Adding Aliases</h3>
+<h3 id="adding-aliases">Adding Aliases</h3>
 <ul>
-<li><code>git config --global alias.rename 'branch -m'</code> (<a href=https://git-scm.com/book/en/v2/Git-Basics-Git-Aliases>docs</a>)</li>
+<li><code>git config --global alias.rename 'branch -m'</code> (<a href="https://git-scm.com/book/en/v2/Git-Basics-Git-Aliases">docs</a>)</li>
 </ul>
-<h3 id=finding-ip-idress-for-vm>Finding IP Idress for VM</h3>
+<h3 id="finding-ip-idress-for-vm">Finding IP Idress for VM</h3>
 <ul>
 <li>Wireless IP Address: <code>ipconfig getifaddr en1</code></li>
 <li>Ethernet IP Address: <code>ipconfig getifaddr en0</code></li>
-<li>More straightforward way: <code>ifconfig | grep "inet " | grep -Fv 127.0.0.1 | awk '{print $2}' </code></li>
+<li>More straightforward way: <code>ifconfig | grep &quot;inet &quot; | grep -Fv 127.0.0.1 | awk '{print $2}' </code></li>
 </ul>
-<p><a href=https://education.github.com/git-cheat-sheet-education.pdf>Github Cheatsheet</a></p>
+<p><a href="https://education.github.com/git-cheat-sheet-education.pdf">Github Cheatsheet</a></p>
 </div>
-<div class=post__footer>
-<span><a class=tag href=/tags/git/>git</a><a class=tag href=/tags/terminal/>terminal</a></span>
-</div>
-</div>
-</main>
-</div><footer class="footer footer__base">
-<ul class=footer__list>
-<li class=footer__item>
-&copy;
-2022
-</li>
-</ul>
+    <div class="post__footer">
+      
+
+      
+        <span><a class="tag" href="/tags/git/">git</a><a class="tag" href="/tags/terminal/">terminal</a></span>
+
+
+
+
+      
+    </div>
+
+    
+  </div>
+
+
+      </main>
+    </div><footer class="footer footer__base">
+  <ul class="footer__list">
+    <li class="footer__item">
+      &copy;
+      
+        
+        2022
+
+
+      
+    </li>
+    
+  </ul>
 </footer>
-<script type=text/javascript src=/js/medium-zoom.min.fae9ac8895995fe91958b3954be11e96025824a04770726a3531e119ddd2d576.js integrity="sha256-+umsiJWZX+kZWLOVS+EelgJYJKBHcHJqNTHhGd3S1XY=" crossorigin=anonymous></script></body>
+  
+  <script
+    type="text/javascript"
+    src="/js/medium-zoom.min.fae9ac8895995fe91958b3954be11e96025824a04770726a3531e119ddd2d576.js"
+    integrity="sha256-&#43;umsiJWZX&#43;kZWLOVS&#43;EelgJYJKBHcHJqNTHhGd3S1XY="
+    crossorigin="anonymous"
+  ></script></body>
 </html>
