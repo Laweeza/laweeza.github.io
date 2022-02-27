@@ -13,7 +13,7 @@ portfolioitems:
           - User Interface
 
       - name: Project Greenfield
-        image: '/images/loader.png'
+        image: '/images/loader-bg.png'
         link: https://github.com/SDC-Sedeco/QA-Service
         description: 'Refactored a monolith design into microservices to scale for production level traffic.'
         tags:
@@ -24,7 +24,7 @@ portfolioitems:
           - System Design
 
       - name: Atelier
-        image: '/images/QA.png'
+        image: '/images/QA-bg.png'
         link: https://github.com/rpp30-fec-r34ct/FEC
         description: 'Collaborated with a small team of engineers to spearhead a new design for an e-commerce platform.'
         tags:
