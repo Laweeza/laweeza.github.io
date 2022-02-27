@@ -6,7 +6,6 @@ series:
   - system-design
 tags: ["system design"]
 ---
-## Part 1
 
 SDC (System Design Capstone) was one of the most rewarding, yet challenging, applications I have had to work on.
 

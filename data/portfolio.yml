@@ -4,7 +4,7 @@ portfolioitems:
     # items within a category
     portfolioitem:
       - name: Quick Bagel
-        image: '/images/BOC.png'
+        image: '/images/.png'
         link: https://github.com/rpp30-boc-heartbleed/whimsical
         description: 'Lead and designed user-driven application features for a mobile errand-tracking application.'
         tags:

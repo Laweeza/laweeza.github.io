@@ -2,21 +2,13 @@ baseURL = "https://laweeza.github.io/"
 defaultContentLanguage = "en"
 languageCode = "en"
 title = "Louisa Shing"
-
-
-# theme as git submodule
 theme = "anatole"
-
-
-publishDir = "docs"
-
-summarylength =10
+summarylength = 10
 enableEmoji = true
 enableRobotsTXT = true
+publishDir = "docs"
 
-pygmentsStyle = "monokai"
-
-# params
+paginate = 1
 
 [params]
 description = """
@@ -24,7 +16,7 @@ Louisa Shing
 Software Developer from SF
 """
 profilePicture = "images/profile.png"
-favicon = "favicons/gothlou.png"
+disableKinds = ["taxonomy", "term", "home"]
 
 # socialIcons
 
@@ -50,27 +42,27 @@ url = "mailto:louieshing@gmail.com"
   [[menu.main]]
     name = "Portfolio"
     identifier = "portfolio"
-    url = "/portfolio/"
-    weight = 1
+    url = "/"
+    weight = 100
 
   [[menu.main]]
     name = "About"
     identifier = "about"
     url = "/about/"
-    weight = 2
+    weight = 200
 
 
   [[menu.main]]
     name = "Posts"
     identifier = "posts"
     url = "/posts/"
-    weight = 3
+    weight = 300
 
 [[menu.main]]
     name = "Tags"
     identifier = "tags"
     url = "/tags/"
-    weight = 4
+    weight = 400
 
 # Syntax highlighting
 pygmentsUseClasses = true
