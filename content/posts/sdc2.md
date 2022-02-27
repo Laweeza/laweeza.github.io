@@ -1,8 +1,9 @@
 ---
-title: "System Design Capstone"
+title: "System Design Capstone Part 2"
 date: 2022-02-23T00:33:37-08:00
 description: "The project I learned from the most during HR."
-type: post
+series:
+  - system-design
 tags: ["system design"]
 ---
 

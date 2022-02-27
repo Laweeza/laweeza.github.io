@@ -3,6 +3,7 @@ defaultContentLanguage = "en"
 languageCode = "en"
 title = "Louisa Shing"
 
+
 # theme as git submodule
 theme = "anatole"
 
@@ -15,11 +16,15 @@ enableRobotsTXT = true
 
 pygmentsStyle = "monokai"
 
+# params
+
 [params]
 description = """
 Louisa Shing
 Software Developer from SF
 """
+profilePicture = "images/profile.png"
+favicon = "favicons/gothlou.png"
 
 # socialIcons
 
@@ -66,3 +71,18 @@ url = "mailto:louieshing@gmail.com"
     identifier = "tags"
     url = "/tags/"
     weight = 4
+
+# Syntax highlighting
+pygmentsUseClasses = true
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
+
+[markup]
+    [markup.goldmark]
+        [markup.goldmark.renderer]
+        unsafe=true
+
+[taxonomies]
+    category = "categories"
+    series = "series"
+    tag = "tags"
