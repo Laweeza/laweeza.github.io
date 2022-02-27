@@ -1,6 +1,6 @@
 portfolioitems:
   # portfolio category
-  - title: Projects
+  - title: Applications
     # items within a category
     portfolioitem:
       - name: Quick Bagel
