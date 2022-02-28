@@ -4,7 +4,7 @@ date: 2022-02-23T00:33:37-08:00
 description: "The project I learned from the most during HR."
 series:
   - system-design
-tags: ["System Design"]
+tags: ["system design"]
 ---
 
 ### Part 2

@@ -53,7 +53,7 @@ url = "mailto:louieshing@gmail.com"
 
 
   [[menu.main]]
-    name = "Posts"
+    name = "Blog"
     identifier = "posts"
     url = "/posts/"
     weight = 300
