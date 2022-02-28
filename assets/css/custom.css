@@ -29,7 +29,7 @@
   z-index: 1;
 }
 
-.nav nav--active {
+.nav__list-item {
     z-index: 100;
   }
 
