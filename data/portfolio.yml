@@ -6,7 +6,7 @@ portfolioitems:
       - name: Quick Bagel
         image: '/images/BOC-blue.png'
         link: https://github.com/rpp30-boc-heartbleed/whimsical
-        description: 'Designed core geolocation feature for a mobile errand-tracking app.'
+        description: 'Implemented core geolocation feature for a mobile errand app.'
         tags:
           - React Native
           - Geolocation
@@ -26,7 +26,7 @@ portfolioitems:
       - name: Atelier
         image: '/images/FEC-green.png'
         link: https://github.com/rpp30-fec-r34ct/FEC
-        description: 'Architected a new product carousel design for e-commerce web app.'
+        description: 'Modernized the interface for a legacy e-commerce web app.'
         tags:
           - React
           - Styled Components
