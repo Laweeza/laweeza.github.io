@@ -1,0 +1,24 @@
+.theme--light .portfolio__button {
+  border: 1px solid #0366d7;
+  color:antiquewhite;
+}
+
+.theme--light .portfolio__button:hover {
+  background: white;
+  font-weight: 800;
+}
+
+.theme--dark .portfolio__button {
+  border: 1px solid #0366d7;
+  color:antiquewhite;
+}
+
+.theme--dark .portfolio__button:hover {
+  background: white;
+  font-weight: 800;
+}
+
+.portfolio__button {
+  background: #0366d7;
+}
+
