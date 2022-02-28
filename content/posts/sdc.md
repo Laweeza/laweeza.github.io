@@ -1,5 +1,5 @@
 ---
-title: "System Design Capstone Part 1"
+title: "System Design Capstone P.1"
 date: 2022-02-23T00:33:37-08:00
 description: "The project I learned from the most during HR."
 series:
