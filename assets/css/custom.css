@@ -87,7 +87,7 @@ color: #64ffda;
   color: #64ffda;
 }
 
-.theme--dark .portfolio__title,  .theme--dark .post__content, .theme--dark .tag {
+.theme--dark .portfolio__title,  .theme--dark .post__content h1, .theme--dark .tag {
   color: #ccd6f6;
 }
 
