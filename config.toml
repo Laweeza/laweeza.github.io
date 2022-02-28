@@ -13,7 +13,7 @@ paginate = 1
 [params]
 title = "Louisa Shing"
 author = "Louisa Shing"
-description = "Hi, I am a software engineer. Welcome to my personal site!"
+description = "Software Engineer from SF"
 profilePicture = "images/profile.png"
 disableKinds = ["taxonomy", "term", "home"]
 
