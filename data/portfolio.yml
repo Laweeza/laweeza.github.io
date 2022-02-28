@@ -6,7 +6,7 @@ portfolioitems:
       - name: Quick Bagel
         image: '/images/BOC-blue.png'
         link: https://github.com/rpp30-boc-heartbleed/whimsical
-        description: 'Lead and designed user-driven application features for a mobile errand-tracking application.'
+        description: 'Designed core geolocation feature for a mobile errand-tracking app.'
         tags:
           - React Native
           - Geolocation
@@ -15,7 +15,7 @@ portfolioitems:
       - name: Project Greenfield
         image: '/images/SDC-loader.png'
         link: https://github.com/SDC-Sedeco/QA-Service
-        description: 'Refactored a monolith design into microservices to scale for production level traffic.'
+        description: 'Refactored a legacy monolith into a microservice for Q&A widget.'
         tags:
           - NGINX
           - Redis
@@ -26,7 +26,7 @@ portfolioitems:
       - name: Atelier
         image: '/images/FEC-green.png'
         link: https://github.com/rpp30-fec-r34ct/FEC
-        description: 'Collaborated with a small team of engineers to spearhead a new design for an e-commerce platform.'
+        description: 'Architected a new product carousel design for e-commerce web app.'
         tags:
           - React
           - Styled Components
