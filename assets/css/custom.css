@@ -26,12 +26,13 @@
 }
 
 .portfolio__image-wrapper {
-  z-index: 1;
+  /* z-index: 1; */
+  z-index: auto;
 }
 
-.nav__list {
+/* .nav__list {
     z-index: 100;
-  }
+  } */
 
 
 
