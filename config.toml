@@ -1,7 +1,6 @@
 baseURL = "https://laweeza.github.io/"
 defaultContentLanguage = "en"
 languageCode = "en"
-title = "Louisa Shing"
 theme = "anatole"
 summarylength = 10
 enableEmoji = true
@@ -16,6 +15,7 @@ author = "Louisa Shing"
 description = "Software Engineer from SF"
 profilePicture = "images/profile.png"
 customCss = ["/css/custom.css"]
+favicon = "favicons/"
 disableKinds = ["taxonomy", "term", "home"]
 
 
