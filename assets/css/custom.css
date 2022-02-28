@@ -30,8 +30,9 @@
 }
 
 .nav-hamburger-list {
-  visibility: collapse;
-}
+    visibility: hidden;
+    z-index: 100;
+  }
 
 
 
