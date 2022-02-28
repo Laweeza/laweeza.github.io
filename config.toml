@@ -12,7 +12,7 @@ paginate = 1
 [params]
 title = "Louisa Shing"
 author = "Louisa Shing"
-description = "Software Engineer from SF"
+description = "Fullstack Software Engineer in the Bay Area."
 profilePicture = "images/profile.png"
 customCss = ["/css/custom.css"]
 favicon = "favicons/"
