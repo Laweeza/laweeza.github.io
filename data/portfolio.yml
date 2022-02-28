@@ -4,7 +4,7 @@ portfolioitems:
     # items within a category
     portfolioitem:
       - name: Quick Bagel
-        image: '/images/BOC-blue.png'
+        image: '/images/BOC-solid.png'
         link: https://github.com/rpp30-boc-heartbleed/whimsical
         description: 'Implemented core geolocation feature for a mobile errand app.'
         tags:
@@ -13,7 +13,7 @@ portfolioitems:
           - User Interface
 
       - name: Project Greenfield
-        image: '/images/SDC-loader.png'
+        image: '/images/SDC-solid.png'
         link: https://github.com/SDC-Sedeco/QA-Service
         description: 'Refactored a legacy monolith into a microservice for Q&A widget.'
         tags:
@@ -24,7 +24,7 @@ portfolioitems:
           - System Design
 
       - name: Atelier
-        image: '/images/FEC-green.png'
+        image: '/images/FEC-solid.png'
         link: https://github.com/rpp30-fec-r34ct/FEC
         description: 'Modernized the interface for a legacy e-commerce web app.'
         tags:
