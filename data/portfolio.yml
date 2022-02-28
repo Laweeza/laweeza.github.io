@@ -13,7 +13,7 @@ portfolioitems:
           - User Interface
 
       - name: Project Greenfield
-        image: '/images/SDC-loader.png'
+        image: '/images/brandbird.png'
         link: https://github.com/SDC-Sedeco/QA-Service
         description: 'Refactored a legacy monolith into a microservice for Q&A widget.'
         tags:
