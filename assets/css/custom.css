@@ -5,7 +5,6 @@
 
 .theme--light .portfolio__button:hover {
   background: white;
-  font-weight: 800;
 }
 
 .theme--dark .portfolio__button {
@@ -15,11 +14,15 @@
 
 .theme--dark .portfolio__button:hover {
   background: white;
-  font-weight: 800;
 }
 
 .portfolio__button {
   background: #0366d7;
+  font-weight: 800;
+}
+
+.portfolio__button:hover {
+  font-weight: 800;
 }
 
 .portfolio__image-wrapper {
