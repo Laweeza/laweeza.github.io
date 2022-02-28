@@ -29,8 +29,7 @@
   z-index: 1;
 }
 
-.nav-hamburger-list {
-    visibility: hidden;
+.nav nav--active {
     z-index: 100;
   }
 
