@@ -11,10 +11,9 @@ publishDir = "docs"
 paginate = 1
 
 [params]
-description = """
-Louisa Shing
-Software Developer from SF
-"""
+title = "Louisa Shing"
+author = "Louisa Shing"
+description = "Hi, I am a software engineer. Welcome to my personal site!"
 profilePicture = "images/profile.png"
 disableKinds = ["taxonomy", "term", "home"]
 
