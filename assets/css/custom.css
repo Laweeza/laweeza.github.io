@@ -22,3 +22,9 @@
   background: #0366d7;
 }
 
+.portfolio__image-wrapper {
+  z-index: 1;
+}
+
+
+
