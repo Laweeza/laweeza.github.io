@@ -21,11 +21,8 @@ tags: ["git", "terminal"]
 * ```git config --global alias.rename 'branch -m'``` ([docs](https://git-scm.com/book/en/v2/Git-Basics-Git-Aliases))
 
 
-### Finding IP Idress for VM
+### Finding IP Address for VM
 
 * Wireless IP Address: `ipconfig getifaddr en1`
 * Ethernet IP Address: `ipconfig getifaddr en0`
 * More straightforward way: `ifconfig | grep "inet " | grep -Fv 127.0.0.1 | awk '{print $2}' `
-
-
-[Github Cheatsheet](https://education.github.com/git-cheat-sheet-education.pdf)
