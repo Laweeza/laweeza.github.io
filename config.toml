@@ -14,8 +14,8 @@ title = "Louisa Shing"
 author = "Louisa Shing"
 description = "Software Engineer from the Bay Area"
 profilePicture = "images/profile.png"
-customCss = ["/css/custom.css"]
 favicon = "favicons/"
+customCss = ["/css/custom.css"]
 disableKinds = ["taxonomy", "term", "home"]
 
 
