@@ -6,12 +6,7 @@
 .theme--light .nav__list-item a:hover,
 .theme--light .portfolio__button,
 .theme--light .archive__list-title:hover,
-.theme--light .tag:hover,
-.theme--dark .post__content h2,
-.theme--dark .post__content h3,
-.theme--dark .archive__heading,
-.theme--dark .archive__list-date,
-.theme--dark .tag a {
+.theme--light .tag:hover {
   color: #00AB9F;
 }
 
@@ -39,7 +34,12 @@ color: #888888;
 .theme--dark .sidebar__list-item a:hover,
 .theme--dark .archive__list-title:hover,
 .theme--dark .tag:hover,
-.theme--dark .post__content code {
+.theme--dark .post__content code,
+.theme--dark .post__content h2,
+.theme--dark .post__content h3,
+.theme--dark .archive__heading,
+.theme--dark .archive__list-date,
+.theme--dark .tag a {
   color: #64ffda;
 }
 
