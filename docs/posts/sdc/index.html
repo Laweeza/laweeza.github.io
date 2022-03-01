@@ -31,12 +31,11 @@ System Design Capstone P.1
 <meta property="og:url" content="https://laweeza.github.io/posts/sdc/"><meta property="article:section" content="posts">
 <meta property="article:published_time" content="2022-02-23T00:33:37-08:00">
 <meta property="article:modified_time" content="2022-02-23T00:33:37-08:00"><meta property="og:site_name" content="Louisa Shing">
-<meta property="og:see_also" content="https://laweeza.github.io/posts/sdc2/">
 <script type=application/ld+json>{"@context":"http://schema.org","@type":"BlogPosting","articleSection":"posts","name":"System Design Capstone P.1","headline":"System Design Capstone P.1","alternativeHeadline":"","description":"
       The project I learned from the most during HR.
 
 
-    ","inLanguage":"en","isFamilyFriendly":"true","mainEntityOfPage":{"@type":"WebPage","@id":"https:\/\/laweeza.github.io\/posts\/sdc\/"},"author":{"@type":"Person","name":"Louisa Shing"},"creator":{"@type":"Person","name":"Louisa Shing"},"accountablePerson":{"@type":"Person","name":"Louisa Shing"},"copyrightHolder":{"@type":"Person","name":"Louisa Shing"},"copyrightYear":"2022","dateCreated":"2022-02-23T00:33:37.00Z","datePublished":"2022-02-23T00:33:37.00Z","dateModified":"2022-02-23T00:33:37.00Z","publisher":{"@type":"Organization","name":"Louisa Shing","url":"https://laweeza.github.io/","logo":{"@type":"ImageObject","url":"https:\/\/laweeza.github.io\/favicons\/favicon-32x32.png","width":"32","height":"32"}},"image":[],"url":"https:\/\/laweeza.github.io\/posts\/sdc\/","wordCount":"195","genre":[],"keywords":["system design"]}</script>
+    ","inLanguage":"en","isFamilyFriendly":"true","mainEntityOfPage":{"@type":"WebPage","@id":"https:\/\/laweeza.github.io\/posts\/sdc\/"},"author":{"@type":"Person","name":"Louisa Shing"},"creator":{"@type":"Person","name":"Louisa Shing"},"accountablePerson":{"@type":"Person","name":"Louisa Shing"},"copyrightHolder":{"@type":"Person","name":"Louisa Shing"},"copyrightYear":"2022","dateCreated":"2022-02-23T00:33:37.00Z","datePublished":"2022-02-23T00:33:37.00Z","dateModified":"2022-02-23T00:33:37.00Z","publisher":{"@type":"Organization","name":"Louisa Shing","url":"https://laweeza.github.io/","logo":{"@type":"ImageObject","url":"https:\/\/laweeza.github.io\/favicons\/favicon-32x32.png","width":"32","height":"32"}},"image":[],"url":"https:\/\/laweeza.github.io\/posts\/sdc\/","wordCount":"345","genre":[],"keywords":["system design"]}</script>
 </head>
 <body class="body theme--light">
 <div class=wrapper>
@@ -137,11 +136,15 @@ animated fadeInDown">
 <li>Robust access-control system</li>
 <li>Fault-tolerant environments</li>
 </ul>
+<h3 id=the-decision>The Decision</h3>
 <p>Unfortunately the decision was not as clear-cut as I had hoped. I had the hardest time deliberating between the two.</p>
+<p>While designing the schemas for my database, I found clear relations between the users, questions, and answers. I had a hard time creating schemas with Mongoose, even when I tried to embed the documents. Mapping out the data into relational tables seemed more intuitive to me.</p>
+<p>MongoDB/Mongoose initially seemed really appealing since I felt that it would allow me to quickly play with the schemas. It was more flexible than a relational database. Relational databases like mySQL and PostgresQL seemed a bit rigid, and I was also worried about scaling limitations.</p>
+<p>I was also unfamiliar with PostgresQL, so I had to weigh whether or not learning new database syntax would be reasonable due to time constraints. However, I used mySQL before, and after a cursory read through the <a href=https://www.postgresql.org/docs/current/>documentation</a>, saw that there was some overlap between the two types of relational databases.</p>
+<p>&mdash; Part 2 in Progress &mdash;</p>
 <h3>Posts in this Series</h3>
 <ul>
 <li><a href=/posts/sdc/>System Design Capstone P.1</a></li>
-<li><a href=/posts/sdc2/>System Design Capstone P.2</a></li>
 </ul>
 </div>
 <div class=post__footer>
