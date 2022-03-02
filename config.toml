@@ -16,7 +16,7 @@ description = "Software Engineer from the Bay Area"
 profilePicture = "images/profile.png"
 favicon = "favicons/"
 customCss = ["/css/custom.css"]
-disableKinds = ["taxonomy", "term", "home"]
+doNotLoadAnimations = true
 
 
 # socialIcons
