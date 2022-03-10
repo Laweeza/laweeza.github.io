@@ -12,13 +12,13 @@ A common pattern found in problems dealing with an array or a linkedlist involve
 
 Given an array, find the average of all subarrays of 'K' contiguous elements in it.
 
-An input of `[1, 3, 2, 6, -1, 4, 1, 8, 2]` & `k=5` would yield an output of:
+An input of `[1, 3, 2, 6, -1, 4, 1, 8, 2]` & `k = 5` would yield an output of:
 
 `[2.2, 2.8, 2.4, 3.6, 2.8]`
 
 With the brute force method:
 - Time Complexity: O(N^2)
-
+- Space Complexity: O(1)
 ```
  function findAverage(k, arr) {
    const result = [];
