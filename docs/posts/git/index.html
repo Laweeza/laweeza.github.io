@@ -2,11 +2,11 @@
 <title>
 Louisa Shing
 |
-terminal
+Terminal Commands
 </title>
 <meta charset=utf-8><meta name=generator content="Hugo 0.92.2"><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name=description content="
-      Software Engineer from the Bay Area
+      Useful commands that I forget about.
 
 
     ">
@@ -20,16 +20,22 @@ terminal
 <link rel=apple-touch-icon sizes=180x180 href=/favicons/apple-touch-icon.png>
 <link rel=icon type=image/png sizes=32x32 href=/favicons/favicon-32x32.png>
 <link rel=icon type=image/png sizes=16x16 href=/favicons/favicon-16x16.png>
-<link rel=alternate type=application/rss+xml href=/tags/terminal/index.xml title>
 <script type=text/javascript src=/js/anatole-header.min.46e6a54097480084f8f52c20ca1aa7425b4fad17029a887fd4017b12e311a72d.js integrity="sha256-RualQJdIAIT49SwgyhqnQltPrRcCmoh/1AF7EuMRpy0=" crossorigin=anonymous></script>
 <script type=text/javascript src=/js/anatole-theme-switcher.min.5557c8ff5617a01067ac258fd70b9b992506e379317b0da51e5e0f6e018b408a.js integrity="sha256-VVfI/1YXoBBnrCWP1wubmSUG43kxew2lHl4PbgGLQIo=" crossorigin=anonymous></script>
 <meta name=twitter:card content="summary">
-<meta name=twitter:title content="terminal">
-<meta name=twitter:description content="Software Engineer from the Bay Area">
-<meta property="og:title" content="terminal">
-<meta property="og:description" content="Software Engineer from the Bay Area">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://laweeza.github.io/tags/terminal/"><meta property="og:site_name" content="Louisa Shing">
+<meta name=twitter:title content="Terminal Commands">
+<meta name=twitter:description content="Useful commands that I forget about.">
+<meta property="og:title" content="Terminal Commands">
+<meta property="og:description" content="Useful commands that I forget about.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://laweeza.github.io/posts/git/"><meta property="article:section" content="posts">
+<meta property="article:published_time" content="2022-02-24T00:48:37-10:00">
+<meta property="article:modified_time" content="2022-02-24T00:48:37-10:00"><meta property="og:site_name" content="Louisa Shing">
+<script type=application/ld+json>{"@context":"http://schema.org","@type":"BlogPosting","articleSection":"posts","name":"Terminal Commands","headline":"Terminal Commands","alternativeHeadline":"","description":"
+      Useful commands that I forget about.
+
+
+    ","inLanguage":"en","isFamilyFriendly":"true","mainEntityOfPage":{"@type":"WebPage","@id":"https:\/\/laweeza.github.io\/posts\/git\/"},"author":{"@type":"Person","name":"Louisa Shing"},"creator":{"@type":"Person","name":"Louisa Shing"},"accountablePerson":{"@type":"Person","name":"Louisa Shing"},"copyrightHolder":{"@type":"Person","name":"Louisa Shing"},"copyrightYear":"2022","dateCreated":"2022-02-24T00:48:37.00Z","datePublished":"2022-02-24T00:48:37.00Z","dateModified":"2022-02-24T00:48:37.00Z","publisher":{"@type":"Organization","name":"Louisa Shing","url":"https://laweeza.github.io/","logo":{"@type":"ImageObject","url":"https:\/\/laweeza.github.io\/favicons\/favicon-32x32.png","width":"32","height":"32"}},"image":[],"url":"https:\/\/laweeza.github.io\/posts\/git\/","wordCount":"134","genre":[],"keywords":["git"]}</script>
 </head>
 <body class="body theme--light">
 <div class=wrapper>
@@ -107,17 +113,49 @@ Louisa Shing
 </nav>
 </div>
 </header>
-<div class="archive
+<div class="post
 .">
-<div class=archive__heading>2022</div>
-<ul class=archive__list>
-<li class=archive__list-item>
-<a class=archive__list-title href=/posts/terminal/ title="Terminal Commands">Terminal Commands</a>
-<div class=archive__list-date>
-Feb 24
-</div>
+<div class=post__content>
+<h1>Terminal Commands</h1>
+<ul class=post__meta>
+<li class=post__meta-item>
+<em class="fas fa-calendar-day post__meta-icon"></em>
+<span class=post__meta-text>
+Thu, Feb 24, 2022
+</span>
+</li>
+<li class=post__meta-item>
+<em class="fas fa-stopwatch post__meta-icon"></em>
+<span class=post__meta-text>One-minute read</span>
 </li>
 </ul>
+<h3 id=git>Git</h3>
+<ul>
+<li>Absolute Path to Current Repository: <code>git rev-parse --show-toplevel</code></li>
+<li>Uninitialize git: <code>rm -rf .git</code></li>
+<li>Reset remote url: <code>git remote set-url origin git@github.com:Laweeza/repo-name.git</code></li>
+<li>Delete file: <code>git rm &lt;file name></code></li>
+<li>Remove directory from git but not local: <code>git rm -r --cached myFolder</code></li>
+<li>Move or rename a file: <code>git mv &lt;options>…​ &lt;args>…​</code> (<a href=https://git-scm.com/docs/git-mv>docs</a>)</li>
+<li>Rename a branch while pointed to any branch: <code>git branch -m &lt;oldname> &lt;newname></code></li>
+<li>Rename current branch: <code>git branch -m &lt;newname></code></li>
+<li>Push to local branch and reset upstream branch: <code>git push origin -u &lt;newname></code></li>
+<li>Delete the remote branch: <code>git push origin --delete &lt;oldname></code></li>
+</ul>
+<h3 id=adding-aliases>Adding Aliases</h3>
+<ul>
+<li><code>git config --global alias.rename 'branch -m'</code> (<a href=https://git-scm.com/book/en/v2/Git-Basics-Git-Aliases>docs</a>)</li>
+</ul>
+<h3 id=finding-ip-address-for-vm>Finding IP Address for VM</h3>
+<ul>
+<li>Wireless IP Address: <code>ipconfig getifaddr en1</code></li>
+<li>Ethernet IP Address: <code>ipconfig getifaddr en0</code></li>
+<li>More straightforward way: <code>ifconfig | grep "inet " | grep -Fv 127.0.0.1 | awk '{print $2}' </code></li>
+</ul>
+</div>
+<div class=post__footer>
+<span><a class=tag href=/tags/git/>git</a></span>
+</div>
 </div>
 </main>
 </div><footer class="footer footer__base">
