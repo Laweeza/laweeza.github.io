@@ -6,8 +6,7 @@ type: post
 tags: ["string", "regex"]
 ---
 
-## String Search
-
+## String Search Prompt:
 Given an array of strings and a search string as parameters, return a sorted array with these rules:
 * Exact match
 * Partial match

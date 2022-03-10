@@ -10,6 +10,7 @@ tags: ["two pointers", "coding patterns", "sliding window", "array"]
 
 A common pattern found in problems dealing with an array or a linkedlist involves finding or calculating something among subarrays or sublists of a certain size.
 
+## Example Prompt:
 Given an array, find the average of all subarrays of 'K' contiguous elements in it.
 
 An input of `[1, 3, 2, 6, -1, 4, 1, 8, 2]` & `k = 5` would yield an output of:
