@@ -35,7 +35,7 @@ Two Pointers
       Core Patterns
 
 
-    ","inLanguage":"en","isFamilyFriendly":"true","mainEntityOfPage":{"@type":"WebPage","@id":"https:\/\/laweeza.github.io\/posts\/two-pointers\/"},"author":{"@type":"Person","name":"Louisa Shing"},"creator":{"@type":"Person","name":"Louisa Shing"},"accountablePerson":{"@type":"Person","name":"Louisa Shing"},"copyrightHolder":{"@type":"Person","name":"Louisa Shing"},"copyrightYear":"2022","dateCreated":"2022-03-09T00:48:37.00Z","datePublished":"2022-03-09T00:48:37.00Z","dateModified":"2022-03-09T00:48:37.00Z","publisher":{"@type":"Organization","name":"Louisa Shing","url":"https://laweeza.github.io/","logo":{"@type":"ImageObject","url":"https:\/\/laweeza.github.io\/favicons\/favicon-32x32.png","width":"32","height":"32"}},"image":[],"url":"https:\/\/laweeza.github.io\/posts\/two-pointers\/","wordCount":"219","genre":[],"keywords":["two pointers","coding patterns","sliding window","array"]}</script>
+    ","inLanguage":"en","isFamilyFriendly":"true","mainEntityOfPage":{"@type":"WebPage","@id":"https:\/\/laweeza.github.io\/posts\/two-pointers\/"},"author":{"@type":"Person","name":"Louisa Shing"},"creator":{"@type":"Person","name":"Louisa Shing"},"accountablePerson":{"@type":"Person","name":"Louisa Shing"},"copyrightHolder":{"@type":"Person","name":"Louisa Shing"},"copyrightYear":"2022","dateCreated":"2022-03-09T00:48:37.00Z","datePublished":"2022-03-09T00:48:37.00Z","dateModified":"2022-03-09T00:48:37.00Z","publisher":{"@type":"Organization","name":"Louisa Shing","url":"https://laweeza.github.io/","logo":{"@type":"ImageObject","url":"https:\/\/laweeza.github.io\/favicons\/favicon-32x32.png","width":"32","height":"32"}},"image":[],"url":"https:\/\/laweeza.github.io\/posts\/two-pointers\/","wordCount":"213","genre":[],"keywords":["two pointers","coding patterns","sliding window","array"]}</script>
 </head>
 <body class="body theme--light">
 <div class=wrapper>
@@ -126,7 +126,7 @@ Wed, Mar 9, 2022
 </li>
 <li class=post__meta-item>
 <em class="fas fa-stopwatch post__meta-icon"></em>
-<span class=post__meta-text>2-minute read</span>
+<span class=post__meta-text>One-minute read</span>
 </li>
 </ul>
 <p>A common pattern found in problems dealing with an array or a linkedlist involves finding or calculating something among subarrays or sublists of a certain size.</p>
@@ -142,7 +142,6 @@ Wed, Mar 9, 2022
 <pre tabindex=0><code> function findAverage(k, arr) {
    const result = [];
    for (let i = 0; i &lt; arr.length - k + 1; i++) {
-     //find sum of next 'k' elements
      let sum = 0;
      for (let j = i; j &lt; i + k; j++) {
        sum += arr[j];
@@ -162,15 +161,11 @@ Wed, Mar 9, 2022
   let windowStart = 0;
 
   for (let windowEnd = 0; windowEnd &lt; arr.length; windowEnd++) {
-    // add next element
-    windowSum += arr[windowEnd];
-   // slide window if hit required window size of 'k'
-   if (windowEnd &gt;= k - 1) {
+    windowSum += arr[windowEnd];   // add next element
+   if (windowEnd &gt;= k - 1) { // slide window if hit required window size of 'k'
      result.push(windowSum / k);
-     // subtract element going out
-     windowSum -= arr[windowStart];
-     // slide window ahead
-     windowStart += 1;
+     windowSum -= arr[windowStart];  // subtract element going out
+     windowStart += 1; // slide window ahead
    }
   }
   return result;
