@@ -3,7 +3,7 @@ title: "String Search"
 date: 2022-02-23T00:33:37-08:00
 description: "An easy string technical challenge."
 type: post
-tags: ["string", "leetcode"]
+tags: ["substring", "regex"]
 ---
 
 ## String Search
