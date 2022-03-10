@@ -24,7 +24,6 @@ An input of `[1, 3, 2, 6, -1, 4, 1, 8, 2]` & `k = 5` would yield an output of:
  function findAverage(k, arr) {
    const result = [];
    for (let i = 0; i < arr.length - k + 1; i++) {
-     //find sum of next 'k' elements
      let sum = 0;
      for (let j = i; j < i + k; j++) {
        sum += arr[j];
@@ -46,15 +45,11 @@ function findAverage(k, arr) {
   let windowStart = 0;
 
   for (let windowEnd = 0; windowEnd < arr.length; windowEnd++) {
-    // add next element
-    windowSum += arr[windowEnd];
-   // slide window if hit required window size of 'k'
-   if (windowEnd >= k - 1) {
+    windowSum += arr[windowEnd];   // add next element
+   if (windowEnd >= k - 1) { // slide window if hit required window size of 'k'
      result.push(windowSum / k);
-     // subtract element going out
-     windowSum -= arr[windowStart];
-     // slide window ahead
-     windowStart += 1;
+     windowSum -= arr[windowStart];  // subtract element going out
+     windowStart += 1; // slide window ahead
    }
   }
   return result;
