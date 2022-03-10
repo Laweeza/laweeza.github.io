@@ -33,3 +33,29 @@ An input of `[1, 3, 2, 6, -1, 4, 1, 8, 2]` & `k = 5` would yield an output of:
    return result;
  }
 ```
+
+
+### With the Sliding Window method:
+- Time Complexity: O(N)
+- Space Complexity: O(1)
+```
+function findAverage(k, arr) {
+  const result = [];
+  let windowSum = 0;
+  let windowStart = 0;
+
+  for (let windowEnd = 0; windowEnd < arr.length; windowEnd++) {
+    // add next element
+    windowSum += arr[windowEnd];
+   // slide window if hit required window size of 'k'
+   if (windowEnd >= k - 1) {
+     result.push(windowSum / k);
+     // subtract element going out
+     windowSum -= arr[windowStart];
+     // slide window ahead
+     windowStart += 1;
+   }
+  }
+  return result;
+}
+```
