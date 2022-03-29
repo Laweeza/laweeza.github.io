@@ -137,14 +137,14 @@ Wed, Feb 23, 2022
 <li>Everything else</li>
 </ul>
 <p>Account for case sensitivity and white spaces.</p>
-<pre tabindex=0><code>const pokemon = ['Charmander', 'charmeleon', 'CHARIZARD', 'Venasaur', IVYSaur', 'Bulbasaue'];
+<pre tabindex=0><code>const pokemon = ['Charmander', 'charmeleon', 'CHARIZARD', 'Venasaur', 'IVYSaur', 'Bulbasaue'];
 
 function searchSearch(string, pokeArray) {
-  let exactMatch = array.filter(poke =&gt; poke.toLowerCase().trim() === string.replace(/\s+/g, '').toLowerCase());
+  let exactMatch = pokeArray.filter(poke =&gt; poke.toLowerCase().trim() === string.replace(/\s+/g, '').toLowerCase());
   if (exactMatch.length &gt; 0) {
     return exactMatch;
   } else {
-    return array.filter(poke =&gt; poke.toLowerCase().trim().includes(string.replace(/\s+\g, '').toLowerCase()));
+    return pokeArray.filter(poke =&gt; poke.toLowerCase().trim().includes(string.replace(/\s+/g, '').toLowerCase()));
   }
 }
 </code></pre><h3 id=explanation>Explanation:</h3>
